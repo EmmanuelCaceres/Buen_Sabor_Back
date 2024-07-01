@@ -26,7 +26,7 @@ public class BuenSaborBackApplication {
 //	private ClienteRepository clienteRepository;
 
 	private static final Logger logger = LoggerFactory.getLogger(BuenSaborBackApplication.class);
-
+/*
 	@Autowired
 	private ClienteRepository clienteRepository;
 	@Autowired
@@ -81,13 +81,13 @@ public class BuenSaborBackApplication {
 
 	@Autowired
 	private PedidoRepository pedidoRepository;
-
+*/
 	public static void main(String[] args) {
 		SpringApplication.run(BuenSaborBackApplication.class, args);
 		logger.info("Estoy activo en el main");
 	}
 
-
+/*
 	@Bean
 	CommandLineRunner init() {
 		return args -> {
@@ -508,7 +508,7 @@ public class BuenSaborBackApplication {
 //			articuloManufacturadoRepository.save(articuloManufacturadoNuevo);
 
 		};
-	}
+	}*/
 }
 /*
 	@Bean

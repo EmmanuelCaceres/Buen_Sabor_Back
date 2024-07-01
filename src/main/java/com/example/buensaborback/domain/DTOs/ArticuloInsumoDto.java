@@ -9,7 +9,7 @@ import lombok.experimental.SuperBuilder;
 @Setter
 @ToString
 @SuperBuilder
-public class ArticuloInsumoDTO extends ArticuloDTO{
+public class ArticuloInsumoDto extends ArticuloDTO{
     private Double precioCompra;
     private Integer stockActual;
     private Integer stockMaximo;
